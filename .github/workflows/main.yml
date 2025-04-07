@@ -66,7 +66,7 @@ jobs:
         cp build/factory/* $upload_dir/factory
       shell: bash
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v3
       with:
         name: esp8266-wroom02-at
         path: esp8266-wroom02-at
@@ -128,7 +128,7 @@ jobs:
         cp build/factory/* $upload_dir/factory
       shell: bash
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v3
       with:
         name: esp8266-wroom-5V2L-at
         path: esp8266-wroom-5V2L-at
@@ -190,7 +190,7 @@ jobs:
         cp build/factory/* $upload_dir/factory
       shell: bash
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v3
       with:
         name: esp8285-1MB-at
         path: esp8285-1MB-at
@@ -252,7 +252,7 @@ jobs:
         cp build/factory/* $upload_dir/factory
       shell: bash
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v3
       with:
         name: esp8266-wroom02-n-at
         path: esp8266-wroom02-n-at
